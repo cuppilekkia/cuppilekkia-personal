@@ -1,0 +1,6 @@
+#!/bin/sh
+ 
+cd ~/var/www/antonio-coppola.com/html
+git pull
+  
+EOF
