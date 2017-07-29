@@ -1,3 +1,5 @@
-#!/bin/sh
-cd ./var/www/antonio-coppola.com/html
-git pull origin master
+ssh -t antonio@37.59.97.253 <<EOF
+  cd /var/www/antonio-coppola.com/html
+  git pull origin master
+  exit
+EOF
