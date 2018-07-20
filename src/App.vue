@@ -12,7 +12,7 @@
         Made with <i class="icon ion-heart"></i> with <a href="https://cli.vuejs.org/">VueCLI</a> in 2018
       </p>
       <p class="footer-text">
-        WIP - v0.1.0
+        WIP - v{{ $store.state.version }}
       </p>
     </footer>
   </div>
