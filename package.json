@@ -1,6 +1,11 @@
 {
-  "name": "new",
+  "name": "antonio-coppola.com",
   "version": "0.1.0",
+  "description": "Antonio Coppola personal website",
+  "author": {
+    "email": "coppola.ant@gmail.com",
+    "name": "Antonio Coppola"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

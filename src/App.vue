@@ -7,9 +7,12 @@
     <main class="main-container">
       <router-view/>
     </main>
-    <footer class="footer">
+    <footer class="footer theme-light">
       <p class="footer-text">
-        Made with <i class="icon ion-heart"></i> with <a href="https://cli.vuejs.org/">VueCLI</a>
+        Made with <i class="icon ion-heart"></i> with <a href="https://cli.vuejs.org/">VueCLI</a> in 2018
+      </p>
+      <p class="footer-text">
+        WIP - v0.1.0
       </p>
     </footer>
   </div>
@@ -23,7 +26,6 @@
 }
 .main-container {
   position: relative;
-  padding: 40px;
   height: 100%;
 
   display: flex;
@@ -31,15 +33,19 @@
 .footer {
   position: absolute;
   bottom: 0;
+  display: flex;
+  justify-content: space-between;
+
   width: 100%;
-  padding: 5px 0;
+  padding: 5px 40px;
   text-align: center;
 
   &-text {
+    font-size: 12px;
+
     .icon {
       color: red;
-      margin: 0 2px;
-      font-size: 15px;
+      font-size: 12px;
     }
   }
 }

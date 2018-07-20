@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,600,700');
+//@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,600,700');
 
 body {
-    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+    font-family: 'Circular', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: 1px;
+    font-size: 14px;
 }
 
 a {
@@ -12,7 +13,19 @@ a {
 }
 
 .t-big-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 2.7rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.t-sub-title {
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.8rem;
+}
+
+.t-paragraph {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.4rem;
 }
