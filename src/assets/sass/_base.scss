@@ -5,8 +5,27 @@ body {
 }
 
 a {
+    position: relative;
     color: inherit;
-    text-decoration: none;
+    z-index: 0;
+
+    &::after {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(208, 60, 60);
+        transition: $speed $cubic;
+        z-index: -1;
+    }
+    &:hover {
+        &::after {
+            height: 5px;
+        }
+    }
+
     &.router-link-exact-active {
         color: #42b983;
     }
