@@ -1,6 +1,6 @@
 {
-  "name": "new",
-  "short_name": "new",
+  "name": "Antonio Coppola full stack developer",
+  "short_name": "Antonio Coppola",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
@@ -13,8 +13,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "https://www.antonio-coppola.com",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "background_color": "#111f2c",
+  "theme_color": "#efefef"
 }
