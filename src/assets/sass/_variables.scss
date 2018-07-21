@@ -1,0 +1,17 @@
+/* COLORS */
+$main-dark: #111f2c;
+
+$main-light: #efefef;
+$main-light-2: darken($main-light, 20%);
+$main-light-4: darken($main-light, 40%);
+
+/* BREAKPOINTS */
+$xs: 26.5625em; /* 425px */
+$sm: 48em; /* 768px */
+$md: 62em; /* 992px */
+$lg: 75em; /* 1200px */
+$xl: 112.5em; /* 1800px */
+
+/* ANIMATION */
+$cubic: cubic-bezier(0.17, 0.82, 0.45, 0.99);
+$speed: .3s;

@@ -1,0 +1,42 @@
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    position: relative;
+    color: inherit;
+    z-index: 0;
+
+    &::after {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(208, 60, 60);
+        transition: $speed $cubic;
+        z-index: -1;
+    }
+    &:hover {
+        &::after {
+            height: 5px;
+        }
+    }
+
+    &.router-link-exact-active {
+        color: #42b983;
+    }
+}
+
+.theme-dark {
+    background-color: $main-dark;
+    color: $main-light;
+}
+
+.theme-light {
+    background-color: $main-light;
+    color: $main-dark;
+}
