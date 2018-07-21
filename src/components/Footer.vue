@@ -4,7 +4,7 @@
             Made with <i class="icon ion-md-heart"></i> with <a href="https://cli.vuejs.org/" target="_blank" rel="noopener">VueCLI</a> in 2018
         </p>
         <p class="footer-text">
-            WIP - {{ $store.state.version }}
+            WIP | {{ $store.state.version }}
         </p>
     </footer>
 </template>
