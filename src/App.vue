@@ -1,14 +1,14 @@
 <template>
-  <div id="app" class="app">
-    <!-- <div id="nav">
+    <div id="app" class="app theme-dark">
+        <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
-    <main class="main-container theme-dark">
-      <router-view/>
-    </main>
-    <Footer/>
-  </div>
+        <main class="main-container ">
+            <router-view/>
+        </main>
+        <Footer/>
+    </div>
 </template>
 
 <script>

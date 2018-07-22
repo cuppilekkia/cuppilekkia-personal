@@ -34,6 +34,10 @@ export default {
     bottom: 0;
   }
 
+  @media screen and (min-width: $lg) {
+    padding: 5px 80px;
+  }
+  
   @media screen and (min-width: $xl) {
     padding: 5px 160px;
   }
