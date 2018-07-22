@@ -1,17 +1,27 @@
 /* COLORS */
 $main-dark: #111f2c;
+$main-dark-2: lighten($main-dark, 2%);
+$main-dark-4: lighten($main-dark, 4%);
 
 $main-light: #efefef;
-$main-light-2: darken($main-light, 20%);
-$main-light-4: darken($main-light, 40%);
+$main-light-20: darken($main-light, 20%);
+$main-light-40: darken($main-light, 40%);
+
+$red: rgb(208, 60, 60);
 
 /* BREAKPOINTS */
-$xs: 26.5625em; /* 425px */
-$sm: 48em; /* 768px */
-$md: 62em; /* 992px */
-$lg: 75em; /* 1200px */
-$xl: 112.5em; /* 1800px */
+$xs: 425px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+$xl: 1800px;
 
 /* ANIMATION */
 $cubic: cubic-bezier(0.17, 0.82, 0.45, 0.99);
 $speed: .3s;
+
+/* RADIUS */
+$radius: 15px;
+
+/* SHADOW */
+$black-shadow: 5px 5px 15px 1px rgba($color: #000000, $alpha: 0.3);

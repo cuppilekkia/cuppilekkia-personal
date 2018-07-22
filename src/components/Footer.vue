@@ -1,7 +1,7 @@
 <template>
-    <footer class="footer theme-light">
+    <footer class="footer wrapper">
         <p class="footer-text">
-            Made with <i class="icon ion-md-heart"></i> with <a href="https://cli.vuejs.org/" target="_blank" rel="noopener">VueCLI</a> in 2018
+            Made with <i class="icon ion-md-heart"></i> in 2018
         </p>
         <p class="footer-text">
             WIP | {{ $store.state.version }}
@@ -19,10 +19,10 @@ export default {
 @import '@/assets/sass/_variables.scss';
 
 .footer {
-  position: relative;
-  width: 100%;
-  padding: 5px 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: center;
+  color: $main-light-40;
 
   @media screen and (min-width: $xs) {
     display: flex;
@@ -34,19 +34,11 @@ export default {
     bottom: 0;
   }
 
-  @media screen and (min-width: $lg) {
-    padding: 5px 80px;
-  }
-  
-  @media screen and (min-width: $xl) {
-    padding: 5px 160px;
-  }
-
   &-text {
     font-size: 12px;
 
     .icon {
-      color: red;
+      color: $red;
       font-size: 12px;
     }
   }
