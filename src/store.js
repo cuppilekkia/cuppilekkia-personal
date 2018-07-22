@@ -8,10 +8,17 @@ export default new Vuex.Store({
     version: window.version,
     ui: {
       breakpoints: {},
-      innerWidth: 0
+      innerWidth: 0,
+      menuOpen: false
     }
   },
   mutations: {
+    closeMenu (state) {
+      state.ui.menuOpen = false
+    },
+    toggleMenu (state) {
+      state.ui.menuOpen = !state.ui.menuOpen
+    },
     setBreakpoints (state, obj) {
       state.ui.breakpoints = obj
     },
@@ -28,7 +35,8 @@ export default new Vuex.Store({
         lg: state.ui.innerWidth > state.ui.breakpoints.lg,
         xl: state.ui.innerWidth > state.ui.breakpoints.xl
       }
-    }
+    },
+    menuState: state => state.ui.menuOpen
   },
   actions: {
 

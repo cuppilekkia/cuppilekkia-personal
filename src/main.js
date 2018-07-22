@@ -8,6 +8,10 @@ import './assets/sass/all.scss'
 
 Vue.config.productionTip = false
 
+router.afterEach((to, from) => {
+  store.commit('closeMenu')
+})
+
 new Vue({
   router,
   store,
