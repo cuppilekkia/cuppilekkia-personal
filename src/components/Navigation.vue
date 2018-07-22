@@ -39,32 +39,36 @@ import throttle from 'lodash/throttle'
 import Footer from '@/components/Footer.vue'
 
 export default {
-    name: 'Navigation',
-    components: {
-        Footer
-    },
-    data() {
-        return {
-            initHeight: 0,
-            open: false
-        }
-    },
-    computed: {
-        openBody() {
-            if (this.uiIS.sm) return this.open
-            return true
-        },
-        bottom() {
-            return !this.uiIS.sm ? (this.open ? 0 : 0 - (this.initHeight || 0) + 'px') : 'initial'
-        },
-        ...mapGetters(['uiIS'])
-    },
-    mounted() {
-        !this.uiIS.sm ? this.initHeight = this.$refs.body.getBoundingClientRect().height : null
-        window.addEventListener('resize', throttle(() => {
-            !this.uiIS.sm ? this.initHeight = this.$refs.body.getBoundingClientRect().height : null
-        }, 300))
+  name: 'Navigation',
+  components: {
+    Footer
+  },
+  data () {
+    return {
+      initHeight: 0,
+      open: false
     }
+  },
+  computed: {
+    openBody () {
+      if (this.uiIS.sm) return this.open
+      return true
+    },
+    bottom () {
+      return !this.uiIS.sm ? (this.open ? 0 : 0 - (this.initHeight || 0) + 'px') : 'initial'
+    },
+    ...mapGetters(['uiIS'])
+  },
+  mounted () {
+    if (!this.uiIS.sm) {
+      this.initHeight = this.$refs.body.getBoundingClientRect().height
+    }
+    window.addEventListener('resize', throttle(() => {
+      if (!this.uiIS.sm) {
+        this.initHeight = this.$refs.body.getBoundingClientRect().height
+      }
+    }, 300))
+  }
 }
 </script>
 
