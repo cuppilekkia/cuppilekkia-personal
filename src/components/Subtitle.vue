@@ -1,7 +1,7 @@
 <template>
-  <h2 class="t-sub-title">
-    <slot></slot>
-  </h2>
+    <h2 class="t-sub-title">
+        <slot></slot>
+    </h2>
 </template>
 
 <script>
@@ -12,6 +12,6 @@ export default {
 
 <style scoped lang="scss">
 .t-sub-title {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 </style>

@@ -2,12 +2,21 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
+    background-color: $main-dark;
+
+    &::before {
+        visibility: hidden;
+        content: '//{"xs": "#{$xs}", "sm": "#{$sm}", "md": "#{$md}", "lg": "#{$lg}", "xl": "#{$xl}"}//';
+        position: absolute;
+        top: -999px;
+    }
 }
 
 a {
     position: relative;
     color: inherit;
     z-index: 0;
+    transition: $speed $cubic;
 
     &::after {
         content: '';
@@ -16,18 +25,24 @@ a {
         width: 100%;
         bottom: 0;
         left: 0;
-        background-color: rgb(208, 60, 60);
+        background-color: $red;
+        opacity: .3;
         transition: $speed $cubic;
         z-index: -1;
     }
     &:hover {
+        color: $red;
         &::after {
-            height: 5px;
+            opacity: 1;
         }
     }
 
     &.router-link-exact-active {
-        color: #42b983;
+        color: $red;
+
+        &::after {
+            opacity: 1;
+        }
     }
 }
 
@@ -35,8 +50,16 @@ a {
     background-color: $main-dark;
     color: $main-light;
 }
+.theme-dark-2 {
+    background-color: $main-dark-2;
+    color: $main-light-20;
+}
 
 .theme-light {
     background-color: $main-light;
     color: $main-dark;
+}
+
+.align-right {
+    text-align: right;
 }
