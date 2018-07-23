@@ -12,6 +12,6 @@ export default {
 
 <style scoped lang="scss">
 .t-sub-title {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 </style>

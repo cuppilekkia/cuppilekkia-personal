@@ -2,12 +2,14 @@
     <div class="home wrapper">
         <div class="content">
             <!-- <img src="../assets/logo.png"> -->
-            <TitleBig>
-                Antonio Coppola
-            </TitleBig>
-            <Subtitle>
-                I'm a full-stack web developer based in London, currently working <a href="//evemattress.co.uk" target="_blank" rel="noopener"> @evesleep</a>.
-            </Subtitle>
+            <div class="header">
+                <TitleBig>
+                    Antonio Coppola
+                </TitleBig>
+                <Subtitle>
+                    I'm a full-stack web developer based in London, currently working <a href="//evemattress.co.uk" target="_blank" rel="noopener"> @evesleep</a>.
+                </Subtitle>
+            </div>
             <Paragraph>
                 With 4+ years of experience, I enjoy building beautiful handcrafted web applications using the latest technologies. <br>Always passionate about performances and optimizations, I do eveything in my power to make the web experience as fast as possible from the code to the infrastructure.
             </Paragraph>
@@ -40,7 +42,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import TitleBig from '@/components/TitleBig.vue'
 import Subtitle from '@/components/Subtitle.vue'
 import Paragraph from '@/components/Paragraph.vue'
@@ -54,3 +55,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.header {
+    margin-bottom: 40px;
+}
+</style>

@@ -29,11 +29,11 @@ export default new Vuex.Store({
   getters: {
     uiIS: state => {
       return {
-        xs: state.ui.innerWidth > state.ui.breakpoints.xs,
-        sm: state.ui.innerWidth > state.ui.breakpoints.sm,
-        md: state.ui.innerWidth > state.ui.breakpoints.md,
-        lg: state.ui.innerWidth > state.ui.breakpoints.lg,
-        xl: state.ui.innerWidth > state.ui.breakpoints.xl
+        xs: state.ui.innerWidth >= state.ui.breakpoints.xs,
+        sm: state.ui.innerWidth >= state.ui.breakpoints.sm,
+        md: state.ui.innerWidth >= state.ui.breakpoints.md,
+        lg: state.ui.innerWidth >= state.ui.breakpoints.lg,
+        xl: state.ui.innerWidth >= state.ui.breakpoints.xl
       }
     },
     menuState: state => state.ui.menuOpen
