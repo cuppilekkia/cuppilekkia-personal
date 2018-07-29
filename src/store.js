@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import works from './data/works'
 
 Vue.use(Vuex)
 
@@ -10,7 +11,8 @@ export default new Vuex.Store({
       breakpoints: {},
       innerWidth: 0,
       menuOpen: false
-    }
+    },
+    works
   },
   mutations: {
     closeMenu (state) {
@@ -36,7 +38,8 @@ export default new Vuex.Store({
         xl: state.ui.innerWidth >= state.ui.breakpoints.xl
       }
     },
-    menuState: state => state.ui.menuOpen
+    menuState: state => state.ui.menuOpen,
+    works: state => state.works
   },
   actions: {
 

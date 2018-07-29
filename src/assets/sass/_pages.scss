@@ -64,14 +64,21 @@
     }
 }
 
-.fade-enter-active, .fade-leave-active {
+.fade-slide-enter-active, .fade-slide-leave-active {
     transition: .5s $cubic;
 }
-.fade-leave-to {
+.fade-slide-leave-to {
     opacity: 0;
     transform: translate3d(0, 100%, 0)
 }
-.fade-enter {
+.fade-slide-enter {
     opacity: 0;
     transform: translate3d(0, 100%, 0)
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: .5s $cubic .5s;
+}
+.fade-leave-to, .fade-enter {
+    opacity: 0;
 }

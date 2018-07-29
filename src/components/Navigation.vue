@@ -21,7 +21,7 @@
                 <div class="navigation-body__col align-right">
                     <ul>
                         <li class="navigation-body__item">
-                            <router-link to="#">Works</router-link>
+                            <router-link to="/works">Works</router-link>
                         </li>
                         <li class="navigation-body__item">
                             <a href="mailto:info@antonio-coppola.com">Contact me</a>
