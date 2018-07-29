@@ -6,7 +6,9 @@
     </div> -->
 
         <main class="main-container ">
-            <router-view/>
+            <transition appear name="fade" mode="out-in">
+                <router-view/>
+            </transition>
         </main>
         <Navigation/>
         <Footer v-if="uiIS.sm" :class="{ 'theme-dark-2': uiIS.sm }"/>

@@ -30,7 +30,7 @@ export default {
   }
 
   @media screen and (min-width: $sm) {
-    position: absolute;
+    position: fixed;
     bottom: 0;
   }
 

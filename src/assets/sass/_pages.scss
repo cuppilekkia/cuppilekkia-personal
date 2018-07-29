@@ -16,11 +16,8 @@
         padding-top: 10vh;
         min-height: 100%;
     }
-    @media screen and (min-width: $lg) {
-        padding-top: 20vh;
-    }
     @media screen and (min-width: $xl) {
-        padding-top: 30vh;
+        padding-top: 20vh;
     }
 }
 
@@ -65,4 +62,16 @@
             margin-right: 10px;
         }
     }
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: .5s $cubic;
+}
+.fade-leave-to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0)
+}
+.fade-enter {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0)
 }
