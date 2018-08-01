@@ -1,17 +1,20 @@
 <template>
-    <div class="works wrapper">
-        <div class="">
+    <article class="works wrapper">
+        <section class="">
             <!-- <img src="../assets/logo.png"> -->
             <TitleBig>
                 Works
             </TitleBig>
-            <transition-group name="fade" appear>
-                <div class="skill" v-for="(work, index) in works" :key="index">
-                    <Work v-bind="work"></Work>
+                <div class="works">
+                    <transition-group name="fade" appear tag="div">
+                        <Work v-bind="work" 
+                            v-for="(work, index) in works" 
+                            :key="index" 
+                            :data-index="index"/>
+                    </transition-group>
                 </div>
-            </transition-group>
-        </div>
-    </div>
+        </section>
+    </article>
 </template>
 
 <script>
@@ -34,14 +37,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/sass/_variables.scss';
 
-.skill {
+.works {
     margin-bottom: 20px;
-
-    &-title {
-        font-weight: bold;
-        font-size: 1rem;
-        margin-bottom: 5px;
-        color: $main-light-40;
-    }
 }
 </style>

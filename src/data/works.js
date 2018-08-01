@@ -1,14 +1,28 @@
 export default [
   {
-    title: 'work 1',
-    description: 'Lorem elit aliqua dolor labore irure reprehenderit cupidatat irure.',
+    title: 'Eve Sleep',
+    tech: 'Vue.js | Laravel',
+    role: 'Development team member',
+    image: '#',
     link: '#',
-    date: Date()
+    year: '2017 &#8674 2018 &#8674'
   },
   {
-    title: 'work 2',
-    description: 'Proident dolor ea est eiusmod nulla labore labore incididunt aliquip proident.',
+    title: 'Youmanity',
+    tech: 'PHP | MySQL | JS ES6 | CSS3 | Gulp',
+    role: 'Front-end Code',
+    design: 'Brainpull',
+    image: '#',
     link: '#',
-    date: Date()
+    year: '2017 &#8674 2018 &#8674'
+  },
+  {
+    title: 'Frisino',
+    tech: 'Jekyll | HTML5 | CSS3',
+    role: 'Code',
+    design: 'Idem Design',
+    image: '#',
+    link: '#',
+    year: '2017'
   }
 ]

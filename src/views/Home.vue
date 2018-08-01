@@ -1,6 +1,6 @@
 <template>
     <div class="home wrapper">
-        <div class="content">
+        <section class="content">
             <!-- <img src="../assets/logo.png"> -->
             <div class="header">
                 <TitleBig>
@@ -13,8 +13,8 @@
             <Paragraph>
                 With 4+ years of experience, I enjoy building beautiful handcrafted web applications using the latest technologies. <br>Always passionate about performances and optimizations, I do eveything in my power to make the web experience as fast as possible from the code to the infrastructure.
             </Paragraph>
-        </div>
-        <div class="contact-links">
+        </section>
+        <section class="contact-links">
             <ul class="contact-links__list">
                 <li class="contact-links__item">
                     <i class="icon ion-logo-twitter"></i>
@@ -37,7 +37,7 @@
                     <a href="https://www.instagram.com/cuppilekkia/" target="_blank" rel="noopener">Instagram</a>
                 </li>
             </ul>
-        </div>
+        </section>
     </div>
 </template>
 
