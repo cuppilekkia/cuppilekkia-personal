@@ -5,14 +5,14 @@
             <TitleBig>
                 Works
             </TitleBig>
-                <div class="works">
-                    <transition-group name="fade" appear tag="div">
-                        <Work v-bind="work" 
-                            v-for="(work, index) in works" 
-                            :key="index" 
-                            :data-index="index"/>
-                    </transition-group>
-                </div>
+            <div class="works">
+                <transition-group name="fade" appear tag="div">
+                    <Work v-bind="work"
+                          v-for="(work, index) in works"
+                          :key="index"
+                          :data-index="index"/>
+                </transition-group>
+            </div>
         </section>
     </article>
 </template>

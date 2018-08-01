@@ -1,13 +1,13 @@
 <template>
     <section class="work theme-dark-2">
-      <header class="head">
-        <h1 class="title">{{ title }}</h1>
-        <h2 class="tech">{{ tech }}</h2>
-      </header>
-      <div>
-        <p class="role">{{ role }}</p>
-        <p class="year"><small v-html="year"></small></p>
-      </div>
+        <header class="head">
+            <h1 class="title">{{ title }}</h1>
+            <h2 class="tech">{{ tech }}</h2>
+        </header>
+        <div>
+            <p class="role">{{ role }}</p>
+            <p class="year"><small v-html="year"></small></p>
+        </div>
     </section>
 </template>
 
