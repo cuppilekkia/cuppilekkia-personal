@@ -25,16 +25,16 @@
                     <a href="https://www.linkedin.com/in/cuppilekkia" target="_blank" rel="noopener">LinkedIn</a>
                 </li>
                 <li class="contact-links__item">
+                    <i class="icon ion-md-code"></i>
+                    <a href="https://glitch.com/@cuppilekkia" target="_blank" rel="noopener">Glitch.me</a>
+                </li>
+                <li class="contact-links__item">
                     <i class="icon ion-logo-codepen"></i>
                     <a href="https://codepen.io/cuppilekkia/" target="_blank" rel="noopener">Codepen</a>
                 </li>
                 <li class="contact-links__item">
                     <i class="icon ion-logo-github"></i>
                     <a href="https://github.com/cuppilekkia" target="_blank" rel="noopener">Github</a>
-                </li>
-                <li class="contact-links__item">
-                    <i class="icon ion-logo-instagram"></i>
-                    <a href="https://www.instagram.com/cuppilekkia/" target="_blank" rel="noopener">Instagram</a>
                 </li>
             </ul>
         </div>
