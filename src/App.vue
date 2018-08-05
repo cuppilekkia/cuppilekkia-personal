@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="app theme-dark">
+    <div id="app" class="app theme-dark" v-cloak>
         <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
