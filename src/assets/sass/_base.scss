@@ -46,6 +46,10 @@ a {
     }
 }
 
+[v-cloak] {
+    display: none;
+}
+
 .theme-dark {
     background-color: $main-dark;
     color: $main-light;

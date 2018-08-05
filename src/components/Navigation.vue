@@ -1,7 +1,7 @@
 <template>
     <div class="navigation"
          :style="{ bottom }"
-         :class="{ 'theme-light': !uiIS.sm }">
+         :class="uiIS.sm ? 'theme-dark' : 'theme-light'">
         <div class="navigation-head" @click="toggleMenu">
             <span>MENU</span>
             <!-- <svg class="navigation-head__open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="30" height="30">
@@ -88,6 +88,7 @@ export default {
     width: 100%;
     z-index: 10;
     transition: $speed $cubic;
+
     @media screen and (min-width: $sm) {
         position: absolute;
         top: 40px;
@@ -95,6 +96,7 @@ export default {
         width: auto;
         height: auto;
         bottom: initial;
+        background-color: transparent;
     }
     @media screen and (min-width: $lg) {
         right: 80px;
