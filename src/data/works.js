@@ -12,7 +12,7 @@ export default [
     role: 'Development team member',
     design: 'Eve Sleep',
     image: 'eve.jpg',
-    link: '#',
+    link: 'https://www.evemattress.co.uk/',
     year: '2017 &#8674 2018 &#8674'
   },
   {
@@ -27,7 +27,7 @@ export default [
     role: 'Front-end Code',
     design: 'Brainpull',
     image: 'youmanity.jpg',
-    link: '#',
+    link: 'https://www.youmanity.today/',
     year: '2017 &#8674 2018 &#8674'
   },
   {
@@ -39,7 +39,7 @@ export default [
     role: 'Code',
     design: 'Idem Design',
     image: 'frisino.jpg',
-    link: '#',
+    link: 'https://www.frisino.com/',
     year: '2017'
   },
   {
@@ -53,7 +53,7 @@ export default [
     role: 'Code & custom CMS',
     design: 'Idem Design',
     image: 'frigerio.jpg',
-    link: '#',
+    link: 'http://www.frigerioliving.com/it/',
     year: '2015'
   },
   {
@@ -67,7 +67,7 @@ export default [
     role: 'Code & custom CMS',
     design: 'Idem Design',
     image: 'iturchesi.jpg',
-    link: '#',
+    link: 'https://www.villaggiodeiturchesi.com/it/',
     year: '2015'
   }
 ]
