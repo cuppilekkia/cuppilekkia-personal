@@ -15,7 +15,7 @@
                 <p class="year"><small v-html="year"></small></p>
                 <p class="design" v-if="design">design: {{ design }}</p>
                 <div class="launch">
-                  <a :href="link" target="_blank" rel="noopener">LAUNCH SITE <i class="icon ion-md-open"></i></a>
+                    <a :href="link" target="_blank" rel="noopener">LAUNCH SITE <i class="icon ion-md-open"></i></a>
                 </div>
             </div>
         </div>
