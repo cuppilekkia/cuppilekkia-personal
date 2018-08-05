@@ -32,7 +32,8 @@
         padding: 0 80px;
     }
     @media screen and (min-width: $xl) {
-        padding: 0 160px;
+        max-width: 1600px;
+        margin: 0 auto;
     }
 }
 
@@ -64,14 +65,21 @@
     }
 }
 
-.fade-enter-active, .fade-leave-active {
+.fade-slide-enter-active, .fade-slide-leave-active {
     transition: .5s $cubic;
 }
-.fade-leave-to {
+.fade-slide-leave-to {
     opacity: 0;
     transform: translate3d(0, 100%, 0)
 }
-.fade-enter {
+.fade-slide-enter {
     opacity: 0;
     transform: translate3d(0, 100%, 0)
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: .5s $cubic .5s;
+}
+.fade-leave-to, .fade-enter {
+    opacity: 0;
 }

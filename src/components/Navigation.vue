@@ -1,13 +1,15 @@
 <template>
-    <div class="navigation" :style="{ bottom }">
+    <div class="navigation"
+         :style="{ bottom }"
+         :class="{ 'theme-light': !uiIS.sm }">
         <div class="navigation-head" @click="toggleMenu">
             <span>MENU</span>
             <!-- <svg class="navigation-head__open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="30" height="30">
                 <path d="M256 48C141.601 48 48 141.601 48 256s93.601 208 208 208 208-93.601 208-208S370.399 48 256 48zm0 374.399c-91.518 0-166.399-74.882-166.399-166.399S164.482 89.6 256 89.6 422.4 164.482 422.4 256 347.518 422.399 256 422.399z"/>
             </svg> -->
         </div>
-        <div class="navigation-body" ref="body">
-            <div class="navigation-body__menu wrapper" :class="{ 'active': menuState }">
+        <div class="navigation-body" ref="body" :class="{ 'active': menuState }">
+            <div class="navigation-body__menu wrapper">
                 <div class="navigation-body__col">
                     <ul>
                         <li class="navigation-body__item">
@@ -21,7 +23,7 @@
                 <div class="navigation-body__col align-right">
                     <ul>
                         <li class="navigation-body__item">
-                            <router-link to="#">Works</router-link>
+                            <router-link to="/works">Works</router-link>
                         </li>
                         <li class="navigation-body__item">
                             <a href="mailto:info@antonio-coppola.com">Contact me</a>
@@ -99,29 +101,32 @@ export default {
     }
     &-head {
         position: relative;
-        padding: 20px 0 10px;
+        padding: 15px 0;
         text-align: center;
-        background: linear-gradient(to bottom, transparent, $main-dark 30%, $main-dark);
         cursor: pointer;
         @media screen and (min-width: $sm) {
             padding: 0;
             text-align: right;
+            border: none;
+            margin-bottom: 20px;
         }
         &__open {
             position: relative;
             margin: 0;
             padding: 0;
-            fill: $main-light;
         }
     }
     &-body {
         position: relative;
-        background-color: $main-dark;
         @media screen and (min-width: $sm) {
-            padding: 10px 0;
             text-align: right;
-            display: block;
+            display: flex;
             overflow: hidden;
+            opacity: 0;
+            transition: $speed $cubic;
+            &.active {
+                opacity: 1;
+            }
         }
         &__menu {
             position: relative;
@@ -129,30 +134,31 @@ export default {
             padding-top: 10px;
             padding-bottom: 20px;
             @media screen and (min-width: $sm) {
-                padding: 20px 0;
+                padding: 0;
                 text-align: right;
                 display: block;
-                opacity: 0;
                 transition: $speed $cubic;
-                &.active {
-                    opacity: 1;
+                transition-delay: .1s;
+                transform: translateX(100%);
+                .active & {
+                    transform: translateX(0%);
                 }
             }
         }
         &__col {
             flex: 1;
             @media screen and (min-width: $sm) {
-                &:first-child {
-                    .navigation-body__item:last-child {
-                        margin-bottom: 10px;
-                    }
-                }
+                flex: auto;
+
             }
         }
         &__item {
             margin-bottom: 10px;
             &:last-child {
                 margin-bottom: 0;
+                @media screen and (min-width: $sm) {
+                    margin-bottom: 10px;
+                }
             }
         }
     }

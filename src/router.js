@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 const Home = () => import('./views/Home.vue')
 const Skills = () => import('./views/Skills.vue')
+const Works = () => import('./views/Works.vue')
 
 Vue.use(Router)
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/skills',
       name: 'skills',
       component: Skills
+    },
+    {
+      path: '/works',
+      name: 'works',
+      component: Works
     }
   ],
   scrollBehavior (to, from, savedPosition) {

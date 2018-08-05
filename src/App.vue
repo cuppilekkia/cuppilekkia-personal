@@ -6,7 +6,7 @@
     </div> -->
 
         <main class="main-container ">
-            <transition appear name="fade" mode="out-in">
+            <transition appear name="fade-slide" mode="out-in">
                 <router-view/>
             </transition>
         </main>

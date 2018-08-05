@@ -12,6 +12,6 @@ export default {
 
 <style scoped lang="scss">
 .t-big-title {
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 </style>

@@ -2,6 +2,8 @@
 $main-dark: #111f2c;
 $main-dark-2: lighten($main-dark, 2%);
 $main-dark-4: lighten($main-dark, 4%);
+$main-darker-2: darken($main-dark, 2%);
+$main-darker-4: darken($main-dark, 4%);
 
 $main-light: #efefef;
 $main-light-20: darken($main-light, 20%);
@@ -24,4 +26,5 @@ $speed: .3s;
 $radius: 15px;
 
 /* SHADOW */
-$black-shadow: 5px 5px 15px 1px rgba($color: #000000, $alpha: 0.3);
+$black-shadow: 5px 5px 15px 1px rgba($color: #000000, $alpha: 0.2);
+$white-shadow: 5px 5px 15px 1px rgba($color: #ffffff, $alpha: 0.3);
