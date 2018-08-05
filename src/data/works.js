@@ -1,28 +1,73 @@
 export default [
   {
     title: 'Eve Sleep',
-    tech: 'Vue.js | Laravel',
+    tech: [
+      'Vue.js',
+      'Laravel',
+      'RESTful API',
+      'Lambda',
+      'Webpack',
+      'HTML5 & SCSS'
+    ],
     role: 'Development team member',
-    image: '#',
+    design: 'Eve Sleep',
+    image: 'eve.jpg',
     link: '#',
     year: '2017 &#8674 2018 &#8674'
   },
   {
     title: 'Youmanity',
-    tech: 'PHP | MySQL | JS ES6 | CSS3 | Gulp',
+    tech: [
+      'PHP & MySQL',
+      'JS ES6',
+      'HTML5',
+      'SASS',
+      'Gulp'
+    ],
     role: 'Front-end Code',
     design: 'Brainpull',
-    image: '#',
+    image: 'youmanity.jpg',
     link: '#',
     year: '2017 &#8674 2018 &#8674'
   },
   {
     title: 'Frisino',
-    tech: 'Jekyll | HTML5 | CSS3',
+    tech: [
+      'Jekyll',
+      'HTML5 & CSS3'
+    ],
     role: 'Code',
     design: 'Idem Design',
-    image: '#',
+    image: 'frisino.jpg',
     link: '#',
     year: '2017'
+  },
+  {
+    title: 'Frigerio Living',
+    tech: [
+      'PHP & MySQL',
+      'jQuery',
+      'HTML5',
+      'CSS3'
+    ],
+    role: 'Code & custom CMS',
+    design: 'Idem Design',
+    image: 'frigerio.jpg',
+    link: '#',
+    year: '2015'
+  },
+  {
+    title: 'I Turchesi',
+    tech: [
+      'PHP & MySQL',
+      'jQuery',
+      'HTML5',
+      'SCSS'
+    ],
+    role: 'Code & custom CMS',
+    design: 'Idem Design',
+    image: 'iturchesi.jpg',
+    link: '#',
+    year: '2015'
   }
 ]

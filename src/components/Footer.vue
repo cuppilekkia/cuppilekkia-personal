@@ -1,11 +1,13 @@
 <template>
-    <footer class="footer wrapper">
-        <p class="footer-text">
-            Made with <i class="icon ion-md-heart"></i> in 2018
-        </p>
-        <p class="footer-text">
-            WIP | {{ $store.state.version }}
-        </p>
+    <footer class="footer">
+        <div class="footer-container wrapper">
+            <p class="footer-text">
+                Made with <i class="icon ion-md-heart"></i> in 2018
+            </p>
+            <p class="footer-text">
+                WIP | {{ $store.state.version }}
+            </p>
+        </div>
     </footer>
 </template>
 
@@ -21,17 +23,20 @@ export default {
 .footer {
   padding-top: 5px;
   padding-bottom: 5px;
-  text-align: center;
-  color: $main-light-40;
-
-  @media screen and (min-width: $xs) {
-    display: flex;
-    justify-content: space-between;
-  }
 
   @media screen and (min-width: $sm) {
     position: fixed;
     bottom: 0;
+    width: 100%;
+  }
+
+  &-container {
+    text-align: center;
+    color: $main-light-40;
+    @media screen and (min-width: $xs) {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   &-text {

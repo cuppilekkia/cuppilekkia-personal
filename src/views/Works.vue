@@ -1,17 +1,14 @@
 <template>
     <article class="works wrapper">
         <section class="">
-            <!-- <img src="../assets/logo.png"> -->
             <TitleBig>
                 Works
             </TitleBig>
             <div class="works">
-                <transition-group name="fade" appear tag="div">
-                    <Work v-bind="work"
-                          v-for="(work, index) in works"
-                          :key="index"
-                          :data-index="index"/>
-                </transition-group>
+                <Work v-bind="work"
+                      v-for="(work, index) in works"
+                      :key="index"
+                      :data-index="index"/>
             </div>
         </section>
     </article>
@@ -39,5 +36,10 @@ export default {
 
 .works {
     margin-bottom: 20px;
+
+    @media screen and (min-width: $sm) {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 </style>
