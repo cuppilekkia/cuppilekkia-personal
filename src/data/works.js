@@ -12,8 +12,8 @@ export default [
     role: 'Development team member',
     design: 'Eve Sleep',
     image: 'eve.jpg',
-    link: 'https://www.evemattress.co.uk/',
-    year: '2017 &#8674 2018 &#8674'
+    link: 'https://www.evesleep.co.uk/',
+    year: '2017 &#8674 2018 &#8674 2019 &#8674'
   },
   {
     title: 'Youmanity',
@@ -28,7 +28,7 @@ export default [
     design: 'Brainpull',
     image: 'youmanity.jpg',
     link: 'https://www.youmanity.today/',
-    year: '2017 &#8674 2018 &#8674'
+    year: '2017 &#8674 2018 &#8674 2019 &#8674'
   },
   {
     title: 'Frisino',

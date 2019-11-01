@@ -7,11 +7,11 @@
                     Antonio Coppola
                 </TitleBig>
                 <Subtitle>
-                    I'm a full-stack web developer based in London, currently working <a href="//evemattress.co.uk" target="_blank" rel="noopener"> @evesleep</a>.
+                    I'm a full-stack web developer based in London, currently working for <a href="//www.evesleep.co.uk" target="_blank" rel="noopener">evesleep</a>.
                 </Subtitle>
             </div>
             <Paragraph>
-                With 4+ years of experience, I enjoy building beautiful handcrafted web applications using the latest technologies. <br>Always passionate about performances and optimizations, I do eveything in my power to make the web experience as fast as possible from the code to the infrastructure.
+                With 5+ years of experience, I enjoy building beautiful handcrafted web applications using the latest technologies. <br>Always passionate about performances and optimisations, I do everything in my power to make the web experience as fast as possible from the code to the infrastructure.
             </Paragraph>
         </section>
         <section class="contact-links">
