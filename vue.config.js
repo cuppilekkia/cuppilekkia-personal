@@ -6,7 +6,6 @@ module.exports = {
   },
 
   lintOnSave: undefined,
-  baseUrl: undefined,
   outputDir: undefined,
   assetsDir: undefined,
   runtimeCompiler: undefined,
