@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cuppilekkiapersonal-dev-182742-authRole",
+            "UnauthRoleArn": "arn:aws:iam::569716481916:role/amplify-cuppilekkiapersonal-dev-182742-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::569716481916:role/amplify-cuppilekkiapersonal-dev-182742-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-cuppilekkiapersonal-dev-182742-deployment",
+            "UnauthRoleName": "amplify-cuppilekkiapersonal-dev-182742-unauthRole",
+            "StackName": "amplify-cuppilekkiapersonal-dev-182742",
+            "StackId": "arn:aws:cloudformation:eu-west-1:569716481916:stack/amplify-cuppilekkiapersonal-dev-182742/4a9b76e0-be13-11ea-9931-066a04218648",
+            "AmplifyAppId": "d1op11ep27yv9u"
+        }
+    }
+}
