@@ -7,11 +7,17 @@
                     Antonio Coppola
                 </TitleBig>
                 <Subtitle>
-                    I'm a full-stack web developer based in London, currently working for <a href="//www.evesleep.co.uk" target="_blank" rel="noopener">evesleep</a>.
+                    I'm a senior software engineer currently based in Milan, working for <a href="https://www.motork.io" target="_blank" rel="noopener">MotorK</a>.
+                </Subtitle>
+                <Subtitle>
+                    Previously in London for <a href="https://www.evesleep.co.uk" target="_blank" rel="noopener">evesleep</a>.
                 </Subtitle>
             </div>
             <Paragraph>
-                With 5+ years of experience, I enjoy building beautiful handcrafted web applications using the latest technologies. <br>Always passionate about performances and optimisations, I do everything in my power to make the web experience as fast as possible from the code to the infrastructure.
+                I enjoy building powerful handcrafted web applications using the latest technologies.
+                Passionate about problem solving, business logic, performances and optimizations,
+                I do eveything in my power to make the web experience as fast as possible from the code to the infrastructure.
+                Currently on the path to become a Solution Architect.
             </Paragraph>
         </section>
         <section class="contact-links">
