@@ -6,7 +6,6 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    version: window.version,
     ui: {
       breakpoints: {},
       innerWidth: 0,

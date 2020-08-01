@@ -1,5 +1,22 @@
 export default [
   {
+    title: 'MotorK',
+    tech: [
+      'Vue.js',
+      'RESTful API',
+      'Symfony',
+      'GraphQL & Apollo',
+      'Cypress',
+      'HTML5 & SCSS',
+      'Elasticsearch'
+    ],
+    role: 'Senior Software Engineer',
+    design: 'MotorK',
+    image: 'eve.jpg',
+    link: 'https://www.motork.io/',
+    year: '2020 &#8674'
+  },
+  {
     title: 'Eve Sleep',
     tech: [
       'Vue.js',
@@ -13,7 +30,7 @@ export default [
     design: 'Eve Sleep',
     image: 'eve.jpg',
     link: 'https://www.evesleep.co.uk/',
-    year: '2017 &#8674 2018 &#8674 2019 &#8674'
+    year: '2017 &#8674 2018 &#8674 2019'
   },
   {
     title: 'Youmanity',

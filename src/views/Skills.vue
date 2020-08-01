@@ -11,7 +11,7 @@
                 </h2>
                 <Paragraph class="tags">
                     Vue.js &middot; HTML5 &middot; CSS3 &middot; Vuex &middot; Node.js <br>
-                    Laravel &middot; PHP &middot; RESTful API &middot; Jekyll
+                    Laravel &middot; PHP &middot; RESTful API &middot; GraphQL &middot; Cypress
                 </Paragraph>
             </section>
             <section class="skill">
@@ -19,8 +19,8 @@
                     <i class="icon ion-md-hammer"></i> Scripts/UI & Tooling
                 </h2>
                 <Paragraph class="tags">
-                    JavaScript &middot; ES6 &middot; OOJS &middot; JQuery &middot; AJAX <br>
-                    SASS/SCSS &middot; BEM &middot; Webpack &middot; Gulp
+                    JavaScript &middot; ES6 &middot; OOJS &middot; Webpack <br>
+                    Jest &middot; AJAX &middot; SASS/SCSS &middot; Gulp
                 </Paragraph>
             </section>
             <section class="skill">
@@ -44,8 +44,8 @@
                     <i class="icon ion-md-switch"></i> Deployment & Infrastructure Tools
                 </h2>
                 <Paragraph class="tags">
-                    Docker &middot; Terraform &middot; CiCd &middot; Jenkins <br>
-                    AWS Cli &middot; CodePipeline
+                    Docker &middot; Amplidfy &middot; CiCd &middot; Jenkins <br>
+                    AWS Cli &middot; Terraform &middot; CodePipeline
                 </Paragraph>
             </section>
             <section class="skill">
@@ -101,7 +101,7 @@ export default {
         font-weight: bold;
         font-size: 1.1rem;
         margin-bottom: 5px;
-        color: $main-light;
+        //color: $main-light;
         flex: 1;
     }
 

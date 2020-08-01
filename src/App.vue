@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="app theme-dark" v-cloak>
+    <div id="app" class="app theme-light" v-cloak>
         <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -11,7 +11,7 @@
             </transition>
         </main>
         <Navigation/>
-        <Footer v-if="uiIS.sm" :class="{ 'theme-dark-2': uiIS.sm }"/>
+        <Footer v-if="uiIS.sm" :class="{ 'theme-light': uiIS.sm }"/>
     </div>
 </template>
 

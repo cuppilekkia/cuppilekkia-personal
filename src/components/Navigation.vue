@@ -1,7 +1,7 @@
 <template>
     <div class="navigation"
          :style="{ bottom }"
-         :class="uiIS.sm ? 'theme-dark' : 'theme-light'">
+         :class="!uiIS.sm ? 'theme-dark' : 'theme-light'">
         <div class="navigation-head" @click="toggleMenu">
             <span>MENU</span>
             <!-- <svg class="navigation-head__open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="30" height="30">

@@ -1,8 +1,8 @@
 <template>
-    <section class="work theme-dark-2">
-        <div class="work-image" v-if="uiIS.sm">
+    <section class="work theme-light">
+        <!-- <div class="work-image" v-if="uiIS.sm">
             <img :src="`../images/works/${image}`">
-        </div>
+        </div> -->
         <div class="work-content">
             <header class="head">
                 <h1 class="title">{{ title }}</h1>
@@ -121,7 +121,7 @@ export default {
     font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: 15px;
-    color: $main-light;
+    //color: $main-light;
   }
 
   & .launch {

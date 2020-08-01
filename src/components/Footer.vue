@@ -2,10 +2,7 @@
     <footer class="footer">
         <div class="footer-container wrapper">
             <p class="footer-text">
-                Made with <i class="icon ion-md-heart"></i> in 2018
-            </p>
-            <p class="footer-text">
-                WIP | {{ $store.state.version }}
+                Made with <i class="icon ion-md-heart"></i> in 2018, updated in 08/2020
             </p>
         </div>
     </footer>

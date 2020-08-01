@@ -23,12 +23,16 @@
         <section class="contact-links">
             <ul class="contact-links__list">
                 <li class="contact-links__item">
-                    <i class="icon ion-logo-twitter"></i>
-                    <a href="https://twitter.com/cuppilekkia" target="_blank" rel="noopener">Twitter</a>
-                </li>
-                <li class="contact-links__item">
                     <i class="icon ion-logo-linkedin"></i>
                     <a href="https://www.linkedin.com/in/cuppilekkia" target="_blank" rel="noopener">LinkedIn</a>
+                </li>
+                <li class="contact-links__item">
+                    <i class="icon ion-logo-github"></i>
+                    <a href="https://github.com/cuppilekkia" target="_blank" rel="noopener">Github</a>
+                </li>
+                <li class="contact-links__item">
+                    <i class="icon ion-logo-twitter"></i>
+                    <a href="https://twitter.com/cuppilekkia" target="_blank" rel="noopener">Twitter</a>
                 </li>
                 <li class="contact-links__item">
                     <i class="icon ion-md-code"></i>
@@ -37,10 +41,6 @@
                 <li class="contact-links__item">
                     <i class="icon ion-logo-codepen"></i>
                     <a href="https://codepen.io/cuppilekkia/" target="_blank" rel="noopener">Codepen</a>
-                </li>
-                <li class="contact-links__item">
-                    <i class="icon ion-logo-github"></i>
-                    <a href="https://github.com/cuppilekkia" target="_blank" rel="noopener">Github</a>
                 </li>
             </ul>
         </section>
