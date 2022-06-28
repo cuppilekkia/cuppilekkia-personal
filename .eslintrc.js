@@ -19,9 +19,15 @@ module.exports = {
     'vue/html-quotes': [
       'error',
       'double'
-    ]
+    ],
+    'vue/multi-word-component-names': [
+      'off',
+      {
+        ignores: [],
+      },
+    ],
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser'
   }
 }

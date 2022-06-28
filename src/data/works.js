@@ -1,28 +1,62 @@
 export default [
   {
+    title: 'Onvi',
+    tech: [
+      'Vue.js',
+      'Vuex - VuexORM',
+      'Ruby',
+      'HTML5 & SCSS',
+      'RESTful API',
+      'CapacitorJS'
+    ],
+    role: 'Senior Frontend Engineer',
+    design: 'Onvi',
+    image: '',
+    link: 'https://onvi.com/',
+    year: '2021 &#8674 2022'
+  },
+  {
+    title: 'Audiens',
+    tech: [
+      'React',
+      'PHP Symfony',
+      'NodeJS',
+      'TypeScript',
+      'GraphQL & Apollo',
+      'RESTful API',
+      'Elasticsearch',
+      'Redis'
+    ],
+    role: 'Full-stack Engineer',
+    design: 'Audiens',
+    image: '',
+    link: 'https://audiens.com/',
+    year: '2021'
+  },
+  {
     title: 'MotorK',
     tech: [
       'Vue.js',
-      'RESTful API',
-      'Symfony',
+      'PHP Symfony',
+      'NodeJS',
       'GraphQL & Apollo',
-      'Cypress',
-      'HTML5 & SCSS',
-      'Elasticsearch'
+      'Elasticsearch',
+      'Kafka',
+      'MySQL'
     ],
     role: 'Senior Software Engineer',
     design: 'MotorK',
-    image: 'eve.jpg',
+    image: '',
     link: 'https://www.motork.io/',
-    year: '2020 &#8674'
+    year: '2020 &#8674 2021'
   },
   {
     title: 'Eve Sleep',
     tech: [
       'Vue.js',
-      'Laravel',
+      'PHP - Laravel',
       'RESTful API',
-      'Lambda',
+      'AWS Lambda',
       'Webpack',
       'HTML5 & SCSS'
     ],
