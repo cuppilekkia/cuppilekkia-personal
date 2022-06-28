@@ -17,7 +17,7 @@
                 I enjoy building powerful handcrafted web applications using the latest technologies.
                 Passionate about problem solving, business logic, performances and optimizations,
                 I do everything in my power to make the web experience as fast as possible from the code to the infrastructure.
-                Currently on the path to become a Solution Architect.
+                Currently on the path to become a Solutions Architect.
             </Paragraph>
         </section>
         <section class="contact-links">

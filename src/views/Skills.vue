@@ -10,25 +10,27 @@
                     <i class="icon ion-md-rocket"></i> Web Technologies & Frameworks
                 </h2>
                 <Paragraph class="tags">
-                    Vue.js &middot; HTML5 &middot; CSS3 &middot; Vuex &middot; Node.js <br>
-                    Laravel &middot; PHP &middot; RESTful API &middot; GraphQL &middot; Cypress
+                    Vue.js &middot; Vuex &middot; HTML5 &middot; CSS3 &middot; GraphQL <br>
+                    Apollo &middot; Symfony &middot; RESTful API &middot; AJAX &middot; Jekyll
                 </Paragraph>
             </section>
             <section class="skill">
                 <h2 class="skill-title">
-                    <i class="icon ion-md-hammer"></i> Scripts/UI & Tooling
+                    <i class="icon ion-md-hammer"></i> Languages & Tooling
                 </h2>
                 <Paragraph class="tags">
-                    JavaScript &middot; ES6 &middot; OOJS &middot; Webpack <br>
-                    Jest &middot; AJAX &middot; SASS/SCSS &middot; Gulp
+                    JavaScript &middot; Node.js &middot; PHP &middot; Golang &middot; Python<br>
+                    Ruby &middot; Webpack &middot; Jest &middot; Cypress &middot; SASS/SCSS<br>
+                    Webpack &middot; Gulp
                 </Paragraph>
             </section>
             <section class="skill">
                 <h2 class="skill-title">
-                    <i class="icon ion-md-recording"></i> Database and ORM
+                    <i class="icon ion-md-recording"></i> Database & Messaging
                 </h2>
                 <Paragraph class="tags">
-                    MySQL &middot; NoSQL &middot; Eloquent
+                    MySQL &middot; NoSQL &middot; Kafka &middot; ElasticSearch <br>
+                    Eloquent
                 </Paragraph>
             </section>
             <section class="skill">
@@ -36,7 +38,7 @@
                     <i class="icon ion-md-flash"></i> Application & Web Server(less)
                 </h2>
                 <Paragraph class="tags">
-                    NGINX &middot; Lambda &middot; Linux
+                    NGINX &middot; Lambda &middot; Linux &middot; Kubernetes
                 </Paragraph>
             </section>
             <section class="skill">
@@ -44,8 +46,8 @@
                     <i class="icon ion-md-switch"></i> Deployment & Infrastructure Tools
                 </h2>
                 <Paragraph class="tags">
-                    Docker &middot; Amplidfy &middot; CiCd &middot; Jenkins <br>
-                    AWS Cli &middot; Terraform &middot; CodePipeline
+                    Docker &middot; Amplify &middot; CiCd &middot; Jenkins &middot; AWS Cli <br>
+                    CodePipeline &middot; Terraform &middot; Github Actions
                 </Paragraph>
             </section>
             <section class="skill">
@@ -53,7 +55,8 @@
                     <i class="icon ion-md-bug"></i> Debugging & Monitoring
                 </h2>
                 <Paragraph class="tags">
-                    Chrome developer tools &middot; Bugsnag &middot; New Relic
+                    Bugsnag &middot; New Relic &middot; Datadog &middot; Sentry<br>
+                    Chrome developer tools
                 </Paragraph>
             </section>
             <section class="skill">
@@ -61,7 +64,7 @@
                     <i class="icon ion-md-git-branch"></i> Versioning and other tools
                 </h2>
                 <Paragraph class="tags">
-                    Git &middot; Bitbucket &middot; Jira
+                    Git &middot; Bitbucket &middot; Jira &middot; GitHub
                 </Paragraph>
             </section>
         </div>
