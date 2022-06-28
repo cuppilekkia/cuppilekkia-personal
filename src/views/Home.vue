@@ -7,16 +7,16 @@
                     Antonio Coppola
                 </TitleBig>
                 <Subtitle>
-                    I'm a senior software engineer currently based in Milan, working for <a href="https://www.motork.io" target="_blank" rel="noopener">MotorK</a>.
+                    I'm a senior software engineer currently based in Italy, working remotely for <a href="https://onvi.com/" target="_blank" rel="noopener">Onvi</a>.
                 </Subtitle>
                 <Subtitle>
-                    Previously in London for <a href="https://www.evesleep.co.uk" target="_blank" rel="noopener">evesleep</a>.
+                    More experiences <router-link to="/works">here</router-link>.
                 </Subtitle>
             </div>
             <Paragraph>
                 I enjoy building powerful handcrafted web applications using the latest technologies.
                 Passionate about problem solving, business logic, performances and optimizations,
-                I do eveything in my power to make the web experience as fast as possible from the code to the infrastructure.
+                I do everything in my power to make the web experience as fast as possible from the code to the infrastructure.
                 Currently on the path to become a Solution Architect.
             </Paragraph>
         </section>

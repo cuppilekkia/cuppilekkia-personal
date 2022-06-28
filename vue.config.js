@@ -1,6 +1,6 @@
 module.exports = {
   pwa: {
-    name: 'Antonio Coppola full stack developer',
+    name: 'Antonio Coppola Software Engineer',
     themeColor: '#111f2c',
     msTileColor: '#111f2c'
   },
