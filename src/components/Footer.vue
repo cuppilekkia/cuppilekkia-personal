@@ -2,7 +2,7 @@
     <footer class="footer">
         <div class="footer-container wrapper">
             <p class="footer-text">
-                Made with <i class="icon ion-md-heart"></i> in 2018, updated in 08/2020
+                Made with <i class="icon ion-md-heart"></i> in 2018, updated in 06/2022
             </p>
         </div>
     </footer>
